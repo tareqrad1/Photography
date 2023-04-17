@@ -1,0 +1,58 @@
+.slider {
+    padding: 50px 0;
+}
+.slider .swiper-wrapper> .swiper-slide > img {
+    cursor: grabbing;
+    user-select: none;
+}
+.slider .container .content > h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px !important;
+    line-height: 120%;
+}
+.slider .content > p {
+    width: 500px;
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px !important;
+    line-height: 130%;
+}
+.slider .content > .icons > img:first-child {
+    border: 1px solid  rgba(255, 122, 3, 1);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.slider .content > .icons > img:last-child {
+    background-color: rgba(255, 161, 4, 1);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #FFA104 !important;
+    opacity: 1 !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
+    bottom: 14px !important;
+}
+/* ========================== Responsive =============================== */
+@media (max-width:776px) {
+    .slider .swiper .swiper-slide > img {
+        width: 100%;
+    }
+}

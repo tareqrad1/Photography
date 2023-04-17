@@ -1,0 +1,54 @@
+body {
+    font-family: 'Oswald' !important;
+    background-color: #002733 !important;
+    overflow-x: hidden;
+}
+:root {
+    --mainColor:linear-gradient(142deg, #FFA104 16.22%, #FF7A03 54.16%, #FFA104 90.11%);
+}
+.navbar {
+    background-color: rgba(0, 16, 25, 1);
+    transition: 0 !important;
+}
+.navbar .navbar-brand {
+    font-family: 'Montserrat Alternates';
+    font-size: 27px;
+    position: relative;
+}
+.navbar .navbar-brand .img-logo {
+    position: absolute;
+    right: -6.5px;
+    width: 35px;
+    bottom: 8px;
+}
+.navbar-nav li {
+    margin: 10px auto;
+}
+.collapse ul > li > a {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: 120%;
+}
+.navbar-nav li > .active,
+.navbar-nav li > a:hover {
+    color: #FF7A03 !important;
+}
+.iconSm:hover .mid {
+    margin-right: 10px;
+}
+.iconLg {
+    opacity: .7;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: transparent;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+/* responsive */
+@media screen and (max-width:992px) {
+    .iconLg {
+        display: none;
+    }
+}

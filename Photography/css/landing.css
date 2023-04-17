@@ -1,0 +1,131 @@
+.landing {
+    background-color: #0B3948;
+    position: relative;
+    z-index: 1;
+}
+.landing::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(/img/Group\ 1387.png);
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.landing .col-one {
+    z-index: 1;
+}
+.landing .headings {
+    padding-bottom: 90px;
+}
+.landing .headings > h1 {
+    font-family: 'Oswald' !important;
+    font-size: 114px;
+}
+.landing .pAndIcons > p {
+    width: fit-content;
+    font-family: 'EB Garamond';
+    position: relative;
+}
+.landing .imges .imgg {
+    position: absolute;
+    width: 40px;
+    right: 50px;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    z-index: 111;
+    animation: rot 2s infinite ease;
+}
+@keyframes rot {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+.landing .pAndIcons > p::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -3px;
+    height: 1px;
+    width: 50%;
+    background: rgba(255, 255, 255, 1);
+}
+.landing .textTow > h1 {
+    font-size: 5em;
+    height: 52px;
+}
+.landing .textTow > p {
+    font-family: 'EB Garamond';
+    width: 296px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.landing .pAndIcons {
+    transform: translateY(-33px);
+}
+.landing .pAndIcons .text-three > p {
+    font-family: 'Oswald' !important;
+    text-align: right;
+    width: 262px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.landing .pAndIcons .icons { 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+.landing .pAndIcons .icons .bac {
+    background-color: #FF7A03;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.landing .pAndIcons .icons .bac > svg path {
+    transition: .5s;
+}
+.landing .pAndIcons .icons .bac:hover > svg path {
+    fill: #0B3948;
+}
+/* ========================= responsive ============================== */
+@media (max-width:992px){
+    .landing .headings > h1 {
+        font-size: 36px;
+    }
+    .landing .headings {
+        padding-bottom: 10px;
+    }
+    .landing .textTow {
+        margin-bottom: 40px;
+    }
+    .landing .pAndIcons {
+        flex-direction: column;
+        transform: translateY(0px);
+    }
+    .landing .pAndIcons > p {
+        margin-bottom: 9px;
+    }
+    .landing .pAndIcons .text-three > p {
+        text-align: center;
+    }
+    .landing .pAndIcons .icons {
+        justify-content: center;
+    }
+    .col-tow .main {
+        position: absolute;
+        bottom: -46px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

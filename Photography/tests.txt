@@ -1,0 +1,27 @@
+<div class="col-lg-3 col-md-12">
+                    <img src="/img/sl-1.png" alt="" class="mw-100">
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <img src="/img/sl-2.png" alt="" class="mw-100">
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <img src="/img/sl-3.png" alt="" class="mw-100">
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <img src="/img/sl-4.png" alt="" class="mw-100">
+                </div>
+
+
+
+
+                <div class="row">
+                                <div class="col-md-12 col-lg-2">
+                                    <img src="/img/ex-5.png" alt="">
+                                </div>
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="/img/ex-6.png" alt="">
+                                </div>
+                                <div class="col-md-12 col-lg-2">
+                                    <img src="/img/ex-7.png" alt="">
+                                </div>
+                            </div>

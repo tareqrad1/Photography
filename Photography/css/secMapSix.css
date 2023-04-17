@@ -1,0 +1,126 @@
+.secMap {
+    padding: 60px 0;
+}
+.secMap .row .text > h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 120%;
+}
+.secMap .row .text > p {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF !important;
+    width: 400px;
+}
+.secMap .row .text .contact {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    cursor: pointer;
+    transition: 1s;
+}
+.secMap .row .imges {
+    position: relative;
+}
+.secMap .row .imges .icon {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: #FF7A03;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+    user-select: none;
+}
+.secMap .row .imges .icon .loc {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    animation: up infinite 0.5s ease;
+}
+@keyframes up {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+.secMap .row .imges .location {
+    background-color: #000;
+    position: absolute;
+    left: 41%;
+    top: 59%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 291.69px;
+    height: 100.53px;
+    font-family: 'EB Garamond';
+    padding: 10px;
+    animation: drop 1.6s ease;
+}
+@keyframes drop {
+    from{
+        transform: translateY(-100%);
+        opacity: 0.2;
+    }
+}
+.secMap .row .imges .location > h4 {
+    font-size: 17px;
+}
+.secMap .row .imges .location > h4 > span {
+    color: #FF7A03;
+    font-family: 'Montserrat Alternates';
+}
+.secMap .row .imges .location p {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    background-color: #FF7A03;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .5s;
+}
+.secMap .row .imges .location p:hover {
+    transform: rotate(180deg);
+}
+
+
+@media (max-width:767px) {
+    .secMap .row .imges .location {
+        width: 200px;
+        font-size: 9px;
+        left: 41%;
+        top: 70%;
+    }
+    .secMap .row .text > h1 {
+        font-size: 40px !important;
+    }
+    .secMap .row .text > p {
+        width: 300px;
+        font-size: 13px;
+        margin: auto;
+    }
+}

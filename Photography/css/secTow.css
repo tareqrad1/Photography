@@ -1,0 +1,32 @@
+.secTow {
+    padding: 90px 0;
+}
+.secTow .col-one> h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 120%;
+}
+.secTow .col-one> p {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 1);
+}
+.secTow .col-one div > span {
+    color: rgba(255, 122, 3, 1);
+    font-size: 35px;
+    font-weight: 500;
+}
+.secTow .col-one div > p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+
